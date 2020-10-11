@@ -1,5 +1,6 @@
 package com.yc.springcloud812.domain.detailcloud;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
