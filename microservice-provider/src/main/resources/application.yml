@@ -1,6 +1,12 @@
 server:
   port: 8888
 spring:
+#  security:
+#    user:
+#      name: admin
+#      password: a
+#      roles:
+#        - USER
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
@@ -15,3 +21,7 @@ mapper:
 logging:
   level:
     com.yc.springcloud812: debug
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:7001/ereka
