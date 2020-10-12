@@ -13,6 +13,8 @@ spring:
     username: root
     password: a
     url: jdbc:mysql://localhost:3306/testmis81?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Hongkong
+  application:
+    name: microservice-provider1
 mybatis:
   configuration:
     map-underscore-to-camel-case: true    #将_转为驼峰命名
@@ -21,7 +23,7 @@ mapper:
 logging:
   level:
     com.yc.springcloud812: debug
-#eureka:
-#  client:
-#    service-url:
-#      defaultZone: http://localhost:7001/ereka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka

@@ -14,11 +14,11 @@
 
     <!-- 从父项目继承-->
     <dependencies>
-        <dependency>
-            <groupId>com.yc.springcloud812</groupId>
-            <artifactId>microservice-security</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.yc.springcloud812</groupId>-->
+<!--            <artifactId>microservice-security</artifactId>-->
+<!--            <version>0.0.1-SNAPSHOT</version>-->
+<!--        </dependency>-->
         <!-- 因为这里引入了 microservice-api ,所以要在父项目中指定 这个模块的版本，-->
         <dependency>
             <groupId>com.yc.springcloud812</groupId>
@@ -63,14 +63,14 @@
 <!--            <artifactId>spring-boot-starter-security</artifactId>-->
 <!--        </dependency>-->
 
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-netflix-eureka-client</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-eureka-client</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
